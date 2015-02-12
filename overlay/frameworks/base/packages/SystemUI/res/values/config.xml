@@ -5,4 +5,8 @@
     <bool name="config_recents_use_hardware_layers">true</bool>
     <!-- Whether to use cheap, less good looking shadows for recents -->
     <bool name="config_recents_fake_shadows">true</bool>
+    <!-- Use camera interface for camera. Must specify config_flashDevice and config_torchBrightness -->
+    <bool name="config_useCameraInterface">false</bool>
+    <!-- Full path to the sysfs toggle -->
+    <string name="config_flashDevice">/dev/ledflash</string>
 </resources>
