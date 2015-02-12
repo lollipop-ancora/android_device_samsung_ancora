@@ -246,6 +246,11 @@ service dhcpcd_eth0 /system/bin/dhcpcd -aABDKL
     disabled
     oneshot
 
+service charger /sbin/healthd -c
+    class charger
+    critical
+    seclabel u:r:healthd:s0
+
 service iprenew_wlan0 /system/bin/dhcpcd -n
     class late_start
     disabled
