@@ -130,7 +130,8 @@ PRODUCT_PACKAGES += \
 
 # qcmediaplayer
 PRODUCT_PACKAGES += \
-    qcmediaplayer
+    qcmediaplayer \
+    Torch
 
 # IPv6 tethering
 PRODUCT_PACKAGES += \
