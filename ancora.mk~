@@ -98,6 +98,7 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libaudioparameter \
     libgenlock \
+    sensors.ancora
 
 PRODUCT_PACKAGES += \
     libmm-omxcore \
